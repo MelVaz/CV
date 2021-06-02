@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*Fondo*/
 body {
   min-height: 100vh;
   background-color: #000000 !important;
@@ -15,7 +15,7 @@ body {
   );
 
 }
-
+/*Sidebar*/
 .side-navbar {
   width: 240px;
   height: 100%;
@@ -24,7 +24,7 @@ body {
   background-color: #0f0314;
   transition: 0.5s;
 }
-
+/*Colores de Sidebar*/
 .nav-link:active,
 .nav-link:focus,
 .nav-link:hover {
@@ -32,11 +32,10 @@ body {
   background-color: rgba(133, 110, 196, 0.356);
 
 }
-
 .cosa{
   color: rgb(118, 189, 255);
 }
-
+/*Responsividad*/
 .main {
   transition: 0.4s;
 }
@@ -48,7 +47,7 @@ body {
 .active-cont {
   margin-left: 240px;
 }
-
+/*boton de sidebar*/
 #menu-btn {
   z-index: 100;
   position: fixed;
@@ -59,6 +58,7 @@ body {
   margin-top: 12px;
   
 }
+/*Tamaño iconos*/
 .extra{ 
   font-size:25px; 
 }
@@ -70,22 +70,21 @@ body {
   color: rgb(118, 189, 255);
 
 }
+/*MAIN*/
 .main input {
   border-radius: 2rem;
   padding: 2px 20px;
 }
-
+/*Links de navbar*/
 a{text-decoration:none;}
 a:link {
   color: #ccc;
   text-decoration:none;
 }
-
-
+/*Letras e imagenes*/
 .titulos{ 
   color: rgb(41, 8, 63);
 }
-/*"*/
 .img{ height: 100px; width: 100px;}
 
 h1{
@@ -94,6 +93,7 @@ h1{
 h2{
   text-shadow: rgba(0, 0, 0, 0.719) 0.1em 0.1em 0.2em;
 }
+/*JUMBOTRON*/
 .jumbotron{
  margin-top: -2%;
     background: 
@@ -104,17 +104,20 @@ linear-gradient(
 url(https://source.unsplash.com/1600x1050/?purple);
 background-repeat: no-repeat;
 background-attachment: fixed;
+background-size: cover; 
 color:white !important;
 height:680px;
 display: flex;
 align-items: center;
 }
+/*Animacion*/
 .zoom {
   transition: transform .5s ease; 
 }
 .zoom:hover {
   transform: scale(1.1); 
 }
+/*Mapa*/
 .map-container-5{
   overflow:hidden;
   padding-bottom:56.25%;
